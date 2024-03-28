@@ -98,7 +98,21 @@ a{
     
     color: #00FFA7 ;
 }
-
+.Group{
+    display: flex;
+    justify-content: space-between;
+}
+.icon i{
+    padding-right: 5px;
+    margin: 10px;
+}
+.icon i{
+    padding: 10px;
+}
+.icon i:hover{
+    border: 2px solid black;
+    border-radius: 50%;
+}
 
 .main {
     color:  #1F1F1F;
