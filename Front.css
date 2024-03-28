@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+.content{
+    display: flex;
+    justify-content: end;
+    padding-right: 15%;
+    padding-top: 20px ;
+    
+
+}
+
+li{
+    list-style-type: none;
+    padding-left: 35px;
+}
+.logo{
+    width: fit-content;
+}
+
+.nav{
+    background-color:  #060606;
+
+    padding: 0;
+    margin-bottom: 0;
+    height: 60px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img{
+    position: relative;
+    width: 165px;
+   height: 38.5px;
+    top:10px;
+   left: 200%;
+   
+
+
+
+}
+
+.nav li{
+    color: white;
+    font-family: Poppins;
+}
+.nav li:hover{
+    color: #00FFA7;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+
+
+}
+
+.head-body{
+   margin-top: 0;
+   height: 55vh;
+   background-color:  #060606;
+   text-align: center;
+
+   
+    
+}
+.head-body h1{
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     
+     font-size: 80px;
+     font-family: 'Poppins';
+     padding-top: 5%;
+}
+.head-body h1 .head-2 {
+    /* Create a linear gradient for text color */
+    background: linear-gradient(270deg, #00FFA7, #FFFF00);
+    /* Apply gradient to text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Set the fallback color */
+    color: transparent;
+}
+.head-body p{
+    color: white;
+   
+}
+.head-body span{
+    line-height: 100%;
+}
+a{
+    
+    color: #00FFA7 ;
+}
+
+
+.main {
+    color:  #1F1F1F;
+    border: 0.95px;
+    margin: 0;
+}
+body, ul, h1,h3,img {
+    margin: 0;
+    padding: 0;
+}
+.head-body button{
+    padding: 10px;
+    border-radius: 40px;
+    width: 10%;
+    font-weight: bold;
+}
+.head-body button i{
+    border: solid black;
+    border-radius: 50%;
+    color: white;
+    background-color: #060606;
+    padding: 3px;
+    margin-left: 15px;
+}
+
+.flex-box{
+    position: relative;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 5%;
+    font-family: 'poppins';
+    
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    border: #060606 solid 2px;
+    width: 230px;
+    border-radius: 20px;
+    background-color:  rgb(217, 249, 251)
+    ;
+}
+.content-box .mid img{
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+}
+.content-box .up-1{
+    display: flex;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    font-family: 'poppins';
+
+}
+.content-box .mid {
+    text-align: center;
+    font-family: 'poppins';
+
+
+}
+.content-box hr{
+    margin: 0;
+}
+
+.content-box h1{
+    padding-top: 10px;
+}
+.up-1 img{
+    padding-right: 2px;
+    
+
+}
+.content-box .end{
+    padding: 8px;
+    text-align: right;
+}
+.content-box .end i{
+    border: white solid 2px;
+    border-radius: 50%;
+    color: black;
+    background: linear-gradient(270deg, #00FFA7, #FFFF00);
+    padding: 3px;
+}
+.content-box button:hover{
+    background-color: #060606;
+    color: white;
+
+}
+.content-box button{
+    padding: 5px;
+    border-radius: 20px;
+    width: 90px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.footer{
+    height: 25vh;
+    background-color: #060606;
+    text-align: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.footer p{
+    color: rgba(152, 166, 172, 1);
+    padding-top: 20px;
+}
+.footer hr{
+    
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid rgba(94, 94, 94, 1)
+    
+}
+
+
+
+@media only screen and (max-width: 1260px) {
+   
+    .logo img{
+        position: relative;
+        
+        width: 100px;
+        height: 50px;
+        left: 100%;
+        
+    }
+    .content{
+        padding-right: 10%;
+    }
+
+    
+    .footer{
+        height: 50vh;
+    }
+    
+
+}
+@media only screen and (max-width: 1475px) {
+    .flex-box{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .head-body{
+        height: max-content;
+    }
+    .footer{
+        height: 50vh;
+    }
+}
